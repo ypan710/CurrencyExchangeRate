@@ -1,0 +1,29 @@
+:root {
+    --bg-color: #FEB236; 
+}
+
+body {
+    background-color: var(--bg-color); 
+}
+
+.bar-chart {
+    display: flex;
+    height: 500px;
+    align-items: flex-end;
+}
+
+.BarChart-bar {
+    transition: 1s;
+    background-color: azure;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+.BarChart-bar:hover {
+    background: blue;
+}
+
+
+
+
