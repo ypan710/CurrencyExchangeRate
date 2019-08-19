@@ -9,7 +9,7 @@ body {
 .bar-chart {
     display: flex;
     height: 500px;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .BarChart-bar {
